@@ -1,0 +1,14 @@
+C:\Users\meam5\source\repos\Examen_final\obj\Debug\Examen_final.csproj.AssemblyReference.cache
+C:\Users\meam5\source\repos\Examen_final\obj\Debug\Examen_final.CrearAlumno.resources
+C:\Users\meam5\source\repos\Examen_final\obj\Debug\Examen_final.Usuario.resources
+C:\Users\meam5\source\repos\Examen_final\obj\Debug\Examen_final.Menu.resources
+C:\Users\meam5\source\repos\Examen_final\obj\Debug\Examen_final.Properties.Resources.resources
+C:\Users\meam5\source\repos\Examen_final\obj\Debug\Examen_final.csproj.GenerateResource.cache
+C:\Users\meam5\source\repos\Examen_final\obj\Debug\Examen_final.csproj.CoreCompileInputs.cache
+C:\Users\meam5\source\repos\Examen_final\bin\Debug\Examen_Final.mdf
+C:\Users\meam5\source\repos\Examen_final\bin\Debug\Examen_Final_log.ldf
+C:\Users\meam5\source\repos\Examen_final\bin\Debug\Examen_final.exe.config
+C:\Users\meam5\source\repos\Examen_final\bin\Debug\Examen_final.exe
+C:\Users\meam5\source\repos\Examen_final\bin\Debug\Examen_final.pdb
+C:\Users\meam5\source\repos\Examen_final\obj\Debug\Examen_final.exe
+C:\Users\meam5\source\repos\Examen_final\obj\Debug\Examen_final.pdb
