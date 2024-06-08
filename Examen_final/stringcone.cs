@@ -16,7 +16,7 @@ namespace Examen_final
         public string cone()
         {
 
-            string conectar = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\USERS\\MEAM5\\SOURCE\\REPOS\\EXAMEN_FINAL\\EXAMEN_FINAL.MDF;Integrated Security=True";
+            string conectar = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\USERS\\MEAM5\\ONEDRIVE\\ESCRITORIO\\EXAMEN_FINAL\\EXAMEN_FINAL.MDF;Integrated Security=True";
             return conectar;
 
         }

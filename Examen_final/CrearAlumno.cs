@@ -30,9 +30,15 @@ namespace Examen_final
             alumno.Telefono = textBox3.Text;
             alumno.Grado = textBox4.Text;
             comboBox1.ValueMember.ToString();
-            alumno.UsuarioId = int.Parse(comboBox1.ValueMember.ToString());
+            alumno.UsuarioId = int.Parse(comboBox1.SelectedValue.ToString());
             Controlador_Alumno controlador =new Controlador_Alumno();
             controlador.insertarAlumn(alumno);
+            textBox1.Text="";
+            textBox2.Text = "";
+            textBox3.Text = "";
+            textBox4.Text = "";
+            comboBox1.SelectedIndex = 0;
+            MessageBox.Show("Se Agrego Correctamente", "Cuadro Informativo");
         }
     }
 }

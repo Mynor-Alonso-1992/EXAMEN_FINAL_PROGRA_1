@@ -65,5 +65,39 @@ namespace Examen_final
             return dt;
         }
 
+        public void insertarUser(estructUsuario user)
+        {
+            string Cadena = string.Empty;
+            string Mensaje = string.Empty;
+            try
+            {
+                //haciendo referencia a la conexion de la base de datos
+                Conexion = new SqlConnection(Cone);
+                //se abre la conexion
+                Conexion.Open();
+                //cadena para poder ingresar un paciente
+                Cadena = "INSERT INTO Usuarios VALUES('" + user.Usuario + "','" + user.Nombre + "')";
+                //se almacena la cadena y la conexion para poder ejecutarla
+                Ejecutar = new SqlCommand(Cadena, Conexion);
+                //se da un formato al comando tipo texto
+                Ejecutar.CommandType = System.Data.CommandType.Text;
+                //se ejecuta el comando con ExecuteNonQuery
+                Ejecutar.ExecuteNonQuery();
+                //mensaje que se mostrara en el Cuadro de dialogo.
+                Mensaje = "Usuario Insertado";
+            }
+            //exepciones.
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+            finally
+            {
+                //finaliza la conexion y todo lo que se ejecuto y almaceno
+                Conexion.Dispose();
+                Ejecutar.Dispose();
+            }
+        }
+
     }
 }
